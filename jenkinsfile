@@ -1,0 +1,14 @@
+node {
+    stage('seq-01'){
+        bat label: '', script: 'ipconfig > sample.txt'
+    }
+    stage('seq-02'){
+        git 'https://jehoshuah:purushottham123@github.com/jehoshuah/training.git'
+    }
+    stage('seq-03'){
+        echo 'Hello'
+    }
+    stage('seq-04'){
+        echo 'End'
+    }
+}
