@@ -8,7 +8,4 @@ node {
     stage('seq-03'){
         echo 'Hello'
     }
-    stage('seq-04'){
-        echo 'End'
-    }
 }
